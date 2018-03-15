@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MZMultiHeadersSheet_Example' do
+  pod 'MZMultiHeadersSheet', :path => '../'
+
+  target 'MZMultiHeadersSheet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
