@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0175FC8D205A0A800085559E /* MZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0175FC8B205A0A800085559E /* MZCollectionViewCell.m */; };
+		0175FC8E205A0A800085559E /* MZCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0175FC8C205A0A800085559E /* MZCollectionViewCell.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E9EF4933CAC0815CCAD94B57 /* Pods_MZMultiHeadersSheet_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD6F734A73D48448E6B4EE1 /* Pods_MZMultiHeadersSheet_Tests.framework */; };
 		F85523CAFB656BF3DDB48D1E /* Pods_MZMultiHeadersSheet_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DF9F5E77F6D95807640F08 /* Pods_MZMultiHeadersSheet_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0175FC8A205A0A800085559E /* MZCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCollectionViewCell.h; sourceTree = "<group>"; };
+		0175FC8B205A0A800085559E /* MZCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCollectionViewCell.m; sourceTree = "<group>"; };
+		0175FC8C205A0A800085559E /* MZCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MZCollectionViewCell.xib; sourceTree = "<group>"; };
 		02DF9F5E77F6D95807640F08 /* Pods_MZMultiHeadersSheet_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZMultiHeadersSheet_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9C81732E62B55AAE17BD8D /* Pods-MZMultiHeadersSheet_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMultiHeadersSheet_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZMultiHeadersSheet_Example/Pods-MZMultiHeadersSheet_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3CA2E78A735C2513FD5B2DD2 /* Pods-MZMultiHeadersSheet_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMultiHeadersSheet_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MZMultiHeadersSheet_Tests/Pods-MZMultiHeadersSheet_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,12 +65,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E0D1C07A1CDD9F8E5BA96A /* Pods-MZMultiHeadersSheet_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMultiHeadersSheet_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZMultiHeadersSheet_Tests/Pods-MZMultiHeadersSheet_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7845754E1D3A25BDFBDF270B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7845754E1D3A25BDFBDF270B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8F4995BD9A789D4AE46CF28A /* Pods-MZMultiHeadersSheet_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MZMultiHeadersSheet_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MZMultiHeadersSheet_Example/Pods-MZMultiHeadersSheet_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9AD6F734A73D48448E6B4EE1 /* Pods_MZMultiHeadersSheet_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZMultiHeadersSheet_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDE2920BA9F7FF9D95EFBC70 /* MZMultiHeadersSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MZMultiHeadersSheet.podspec; path = ../MZMultiHeadersSheet.podspec; sourceTree = "<group>"; };
-		CE8BAB4E634F86069AB86512 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CDE2920BA9F7FF9D95EFBC70 /* MZMultiHeadersSheet.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MZMultiHeadersSheet.podspec; path = ../MZMultiHeadersSheet.podspec; sourceTree = "<group>"; };
+		CE8BAB4E634F86069AB86512 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +137,11 @@
 			children = (
 				6003F59C195388D20070C39A /* MZAppDelegate.h */,
 				6003F59D195388D20070C39A /* MZAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MZViewController.h */,
 				6003F5A6195388D20070C39A /* MZViewController.m */,
+				0175FC8A205A0A800085559E /* MZCollectionViewCell.h */,
+				0175FC8B205A0A800085559E /* MZCollectionViewCell.m */,
+				0175FC8C205A0A800085559E /* MZCollectionViewCell.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -250,6 +255,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = machellezhang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = QK9T87M3E2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,10 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				0175FC8E205A0A800085559E /* MZCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +414,7 @@
 				6003F59E195388D20070C39A /* MZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0175FC8D205A0A800085559E /* MZCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,9 +542,11 @@
 			baseConfigurationReference = 8F4995BD9A789D4AE46CF28A /* Pods-MZMultiHeadersSheet_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QK9T87M3E2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MZMultiHeadersSheet/MZMultiHeadersSheet-Prefix.pch";
 				INFOPLIST_FILE = "MZMultiHeadersSheet/MZMultiHeadersSheet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,9 +559,11 @@
 			baseConfigurationReference = 3B9C81732E62B55AAE17BD8D /* Pods-MZMultiHeadersSheet_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QK9T87M3E2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MZMultiHeadersSheet/MZMultiHeadersSheet-Prefix.pch";
 				INFOPLIST_FILE = "MZMultiHeadersSheet/MZMultiHeadersSheet-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

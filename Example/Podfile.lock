@@ -1,0 +1,16 @@
+PODS:
+  - MZMultiHeadersSheet (0.1.0)
+
+DEPENDENCIES:
+  - MZMultiHeadersSheet (from `../`)
+
+EXTERNAL SOURCES:
+  MZMultiHeadersSheet:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MZMultiHeadersSheet: a9134beca520bb824246fc328a09000fc1f287b9
+
+PODFILE CHECKSUM: 13efbfb900a3ee69c78e288f6f30ba6143f36473
+
+COCOAPODS: 1.4.0
