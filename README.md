@@ -5,7 +5,8 @@
 
 ## Abstract
 
-自定义UICollectionView的Layout，实现多表头的功能。
+自定义UICollectionView的Layout，实现多表头的功能。<br>
+![Multi_Headers.gif](/Pictures/multi_header.gif)
 
 ## Example
 
