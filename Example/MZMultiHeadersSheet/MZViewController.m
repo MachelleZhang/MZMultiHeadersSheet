@@ -56,7 +56,7 @@ static NSString *cellIdentifier = @"MZCollectionViewCell";
  *  表头的层级
  */
 - (NSInteger)levelOfMultiHeadersInCollectionView:(UICollectionView *)collectionView {
-    return 1;
+    return 3;
 }
 
 /**
