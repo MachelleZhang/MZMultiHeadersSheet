@@ -22,7 +22,7 @@ MZMultiHeadersSheet is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MZMultiHeadersSheet'
+pod 'MZMultiHeadersSheet', '~> 0.1.0'
 ```
 
 ## Usage<br>
