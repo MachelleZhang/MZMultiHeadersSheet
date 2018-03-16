@@ -26,6 +26,9 @@ pod 'MZMultiHeadersSheet'
 ```
 
 ## Usage<br>
+e.g.<br>
+![demo_sheet.png](/Pictures/demo_sheet.png)
+
 1.引入头文件
 
 ```Objective-C
