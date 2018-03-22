@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011C556320635B180028604E /* MZFreeLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C556220635B180028604E /* MZFreeLayoutVC.m */; };
+		011C5567206382B90028604E /* MZMultiHeadersLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C5565206382B80028604E /* MZMultiHeadersLayoutVC.m */; };
+		011C556C2063831A0028604E /* MZTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 011C556B2063831A0028604E /* MZTableVC.m */; };
 		0175FC8D205A0A800085559E /* MZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0175FC8B205A0A800085559E /* MZCollectionViewCell.m */; };
 		0175FC8E205A0A800085559E /* MZCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0175FC8C205A0A800085559E /* MZCollectionViewCell.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -15,7 +18,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* MZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* MZAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* MZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* MZViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011C556120635B180028604E /* MZFreeLayoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZFreeLayoutVC.h; sourceTree = "<group>"; };
+		011C556220635B180028604E /* MZFreeLayoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZFreeLayoutVC.m; sourceTree = "<group>"; };
+		011C5565206382B80028604E /* MZMultiHeadersLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZMultiHeadersLayoutVC.m; sourceTree = "<group>"; };
+		011C5566206382B90028604E /* MZMultiHeadersLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZMultiHeadersLayoutVC.h; sourceTree = "<group>"; };
+		011C556A2063831A0028604E /* MZTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZTableVC.h; sourceTree = "<group>"; };
+		011C556B2063831A0028604E /* MZTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZTableVC.m; sourceTree = "<group>"; };
 		0175FC8A205A0A800085559E /* MZCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZCollectionViewCell.h; sourceTree = "<group>"; };
 		0175FC8B205A0A800085559E /* MZCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZCollectionViewCell.m; sourceTree = "<group>"; };
 		0175FC8C205A0A800085559E /* MZCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MZCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -54,8 +62,6 @@
 		6003F59B195388D20070C39A /* MZMultiHeadersSheet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MZMultiHeadersSheet-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* MZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* MZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* MZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* MZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* MZMultiHeadersSheet_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZMultiHeadersSheet_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -98,6 +104,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011C5564206382A10028604E /* MultiHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				011C5566206382B90028604E /* MZMultiHeadersLayoutVC.h */,
+				011C5565206382B80028604E /* MZMultiHeadersLayoutVC.m */,
+			);
+			name = MultiHeaders;
+			sourceTree = "<group>";
+		};
+		011C5568206382BD0028604E /* FreeSheet */ = {
+			isa = PBXGroup;
+			children = (
+				011C556120635B180028604E /* MZFreeLayoutVC.h */,
+				011C556220635B180028604E /* MZFreeLayoutVC.m */,
+			);
+			name = FreeSheet;
+			sourceTree = "<group>";
+		};
+		011C5569206382D90028604E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0175FC8A205A0A800085559E /* MZCollectionViewCell.h */,
+				0175FC8B205A0A800085559E /* MZCollectionViewCell.m */,
+				0175FC8C205A0A800085559E /* MZCollectionViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -135,16 +169,16 @@
 		6003F593195388D20070C39A /* Example for MZMultiHeadersSheet */ = {
 			isa = PBXGroup;
 			children = (
+				011C5569206382D90028604E /* Cell */,
+				011C5568206382BD0028604E /* FreeSheet */,
+				011C5564206382A10028604E /* MultiHeaders */,
 				6003F59C195388D20070C39A /* MZAppDelegate.h */,
 				6003F59D195388D20070C39A /* MZAppDelegate.m */,
-				6003F5A5195388D20070C39A /* MZViewController.h */,
-				6003F5A6195388D20070C39A /* MZViewController.m */,
-				0175FC8A205A0A800085559E /* MZCollectionViewCell.h */,
-				0175FC8B205A0A800085559E /* MZCollectionViewCell.m */,
-				0175FC8C205A0A800085559E /* MZCollectionViewCell.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				011C556A2063831A0028604E /* MZTableVC.h */,
+				011C556B2063831A0028604E /* MZTableVC.m */,
 			);
 			name = "Example for MZMultiHeadersSheet";
 			path = MZMultiHeadersSheet;
@@ -411,10 +445,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011C556C2063831A0028604E /* MZTableVC.m in Sources */,
 				6003F59E195388D20070C39A /* MZAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* MZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				0175FC8D205A0A800085559E /* MZCollectionViewCell.m in Sources */,
+				011C5567206382B90028604E /* MZMultiHeadersLayoutVC.m in Sources */,
+				011C556320635B180028604E /* MZFreeLayoutVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

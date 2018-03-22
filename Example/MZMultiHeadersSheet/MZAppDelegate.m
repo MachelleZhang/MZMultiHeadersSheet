@@ -7,7 +7,7 @@
 //
 
 #import "MZAppDelegate.h"
-#import "MZViewController.h"
+#import "MZTableVC.h"
 
 @implementation MZAppDelegate
 
@@ -16,8 +16,8 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    MZViewController *viewController = [[MZViewController alloc] init];
-    self.window.rootViewController = viewController;
+    MZTableVC *viewController = [[MZTableVC alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:viewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

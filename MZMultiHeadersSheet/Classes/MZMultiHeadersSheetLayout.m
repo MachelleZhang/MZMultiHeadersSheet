@@ -11,7 +11,6 @@
 @interface MZMultiHeadersSheetLayout ()
 
 @property(strong, nonatomic) NSMutableArray *itemAttributes;
-@property(strong, nonatomic) NSMutableArray *itemsSize;
 @property(nonatomic, assign) CGSize contentSize;
 
 @end
@@ -34,7 +33,6 @@
     CGFloat contentHeight = 0.0; // content size的高度
     
     //初始化
-    self.itemsSize = [NSMutableArray array];
     self.itemAttributes = [NSMutableArray array];
     
     NSInteger curS0Index = 0; //section 0 当前次级表头索引位置，用于表头坐标计算

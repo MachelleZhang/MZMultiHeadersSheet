@@ -1,5 +1,5 @@
 //
-//  MZViewController.h
+//  MZMultiHeadersLayoutVC.h
 //  MZMultiHeadersSheet
 //
 //  Created by machellezhang on 03/15/2018.
@@ -8,6 +8,6 @@
 
 @import UIKit;
 
-@interface MZViewController : UIViewController
+@interface MZMultiHeadersLayoutVC : UIViewController
 
 @end

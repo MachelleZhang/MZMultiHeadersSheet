@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MZMultiHeadersSheet'
-  s.version          = '0.1.0'
-  s.summary          = '自定义UICollectionView的布局，实现多表头的功能'
+  s.version          = '0.2.0'
+  s.summary          = '自定义UICollectionView的布局，实现类似Excel表格的功能'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  自定义UICollectionView的布局，实现多表头的功能，具体使用方法请参看Demo。
+  自定义UICollectionView的布局，实现类似Excel表格的功能，具体使用方法请参看Demo。
                        DESC
 
   s.homepage         = 'https://github.com/MachelleZhang/MZMultiHeadersSheet'

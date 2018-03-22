@@ -1,24 +1,24 @@
 //
-//  MZViewController.m
+//  MZMultiHeadersLayoutVC.m
 //  MZMultiHeadersSheet
 //
 //  Created by machellezhang on 03/15/2018.
 //  Copyright (c) 2018 machellezhang. All rights reserved.
 //
 
-#import "MZViewController.h"
+#import "MZMultiHeadersLayoutVC.h"
 #import "MZMultiHeadersSheetLayout.h"
 #import "MZCollectionViewCell.h"
 
 static NSString *cellIdentifier = @"MZCollectionViewCell";
 
-@interface MZViewController () <MZMultiHeadersSheetLayoutDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
+@interface MZMultiHeadersLayoutVC () <MZMultiHeadersSheetLayoutDelegate, UICollectionViewDataSource, UICollectionViewDelegate>
 
 @property (nonatomic, strong) UICollectionView *collectionView;
 
 @end
 
-@implementation MZViewController
+@implementation MZMultiHeadersLayoutVC
 
 #pragma mark - Init
 - (void)viewDidLoad
@@ -31,7 +31,7 @@ static NSString *cellIdentifier = @"MZCollectionViewCell";
     MZMultiHeadersSheetLayout *multiHeadersLayout = [[MZMultiHeadersSheetLayout alloc] init];
     multiHeadersLayout.delegate = self;
     
-    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 50, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 100) collectionViewLayout:multiHeadersLayout];
+    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 100) collectionViewLayout:multiHeadersLayout];
     [self.collectionView registerNib:[UINib nibWithNibName:cellIdentifier bundle:nil] forCellWithReuseIdentifier:cellIdentifier];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     self.collectionView.bounces = NO;
