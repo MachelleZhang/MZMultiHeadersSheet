@@ -99,7 +99,8 @@ multiHeadersLayout.delegate = self;
 
 #### MZFreeSheetLayout<br>
 e.g.<br>
-![free_layout.png](/Pictures/free_layout.png)
+![free_layout.png](/Pictures/free_layout.png)<br>
+在已知表格样式的前提下，按从左到右，从上到下，依次添加索引，已编号的掠过，参考上图的索引规则<br>
 
 1.引入头文件
 
