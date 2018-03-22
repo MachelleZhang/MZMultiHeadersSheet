@@ -5,7 +5,11 @@
 
 ## Abstract
 
-自定义UICollectionView的Layout，实现多表头的功能。<br>
+自定义UICollectionView的Layout，实现类似Excel的功能。<br>
+1.MZMultiHeadersSheetLayout<br>
+仅第一行为多表头的布局。可实现普通的带冻结效果的滚动表格<br>
+2.MZFreeLayout<br>
+类似Excel表格的自由布局。可实现第一种布局的效果。<br>
 ![Multi_Headers.gif](/Pictures/multi_header.gif)
 
 ## Example
@@ -26,6 +30,7 @@ pod 'MZMultiHeadersSheet', '~> 0.1.0'
 ```
 
 ## Usage<br>
+#### MZMultiHeadersSheetLayout<br>
 e.g.<br>
 ![demo_sheet.png](/Pictures/demo_sheet.png)
 
@@ -89,6 +94,64 @@ multiHeadersLayout.delegate = self;
         return 9;
     }
     return 10;
+}
+```
+
+#### MZFreeSheetLayout<br>
+e.g.<br>
+![free_layout.png](/Pictures/free_layout.png)
+
+1.引入头文件
+
+```Objective-C
+#import "MZFreeSheetLayout.h"
+```
+
+2.设置代理
+
+```Objective-C
+MZFreeSheetLayout *freeLayout = [[MZFreeSheetLayout alloc] init];
+freeLayout = self;
+```
+
+3.需要实现的主要代理方法
+
+```Objective-C
+#pragma mark - MZFreeSheetLayoutDelegate
+/**
+ *  表格的基本宽度，1个单位长度实际的像素值，格式(float, float)，例：(50, 50)
+ */
+- (CGSize)baseSizeOfCollectionView:(UICollectionView *)collectionView {
+    return CGSizeMake(100, 200);
+}
+
+/**
+ *  表格的规模大小，格式(int, int)，例：(4, 5)，表示表格总体宽4个单位，高5个单位
+ */
+- (CGSize)scaleOfCollectionView:(UICollectionView *)collectionView {
+    return CGSizeMake(5, 5);
+}
+
+/**
+ *  每个cell的大小，用单位个数表示，格式(int, int)，例：(2, 1)，表示当前索引的元素宽2个单位，高1个单位
+ */
+- (CGSize)mzCollectionView:(UICollectionView *)collectionView cellSizeOfIndex:(NSInteger)index {
+    NSArray *cellSize = self.datas[index];
+    NSInteger width = ((NSNumber *)cellSize[0]).integerValue;
+    NSInteger height = ((NSNumber *)cellSize[1]).integerValue;
+    return CGSizeMake(width, height);
+}
+
+/**
+ *  需要冻结的行列，格式(int, int)，例：(1,0)，表示第1列被冻结，可参照Excel的冻结规则
+ */
+- (CGSize)frozenUnitOfCollection:(UICollectionView *)collectionView {
+    return CGSizeMake(1, 0);
+}
+
+#pragma mark - UICollectionViewDataSource
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+    return self.datas.count;
 }
 ```
 
