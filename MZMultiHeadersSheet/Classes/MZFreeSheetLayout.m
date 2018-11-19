@@ -21,6 +21,8 @@
  *  自定义布局
  */
 - (void)prepareLayout {
+    // 有无数据都需要初始化，因为有复用
+    self.itemAttributes = [NSMutableArray array];
     //没有元素，直接返回
     if ([self.collectionView numberOfItemsInSection:0] == 0) {
         return;
@@ -57,7 +59,6 @@
     //初始化
     NSInteger xOffset = 0;       //元素的x坐标(单位坐标系)
     NSInteger yOffset = 0;       //元素的y坐标
-    self.itemAttributes = [NSMutableArray array];
     
     NSInteger endFlag = 0; //结束标志，0=未结束；1=全部插入，正常结束；2=空间不足，异常退出
     for (int index=0; index<[self.collectionView numberOfItemsInSection:0]; index++) {

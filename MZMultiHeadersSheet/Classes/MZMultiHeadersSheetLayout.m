@@ -21,6 +21,8 @@
  *  自定义布局
  */
 - (void)prepareLayout {
+    // 有无数据都需要初始化，因为有复用
+    self.itemAttributes = [NSMutableArray array];
     //没有元素，直接返回
     if ([self.collectionView numberOfSections] == 0) {
         return;
@@ -31,9 +33,6 @@
     CGFloat yOffset = 0.0;       //元素的y坐标
     CGFloat contentWidth = 0.0;  // content size的宽度
     CGFloat contentHeight = 0.0; // content size的高度
-    
-    //初始化
-    self.itemAttributes = [NSMutableArray array];
     
     NSInteger curS0Index = 0; //section 0 当前次级表头索引位置，用于表头坐标计算
     NSInteger curS0Level = 0; //section 0 当前次级表头的层级
