@@ -4,7 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/MZMultiHeadersSheet.svg?style=flat)](http://cocoapods.org/pods/MZMultiHeadersSheet)
 
 ## Abstract
-
+[Swift版本](https://github.com/MachelleZhang/MZTableLayout)<br>
 自定义UICollectionView的Layout，实现类似Excel的功能。<br>
 1.MZMultiHeadersSheetLayout<br>
 仅第一行为多表头的布局。可实现普通的带冻结效果的滚动表格<br>
@@ -26,7 +26,7 @@ MZMultiHeadersSheet is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MZMultiHeadersSheet', '~> 0.2.1'
+pod 'MZMultiHeadersSheet', '~> 0.2.2'
 ```
 
 ## Usage<br>
