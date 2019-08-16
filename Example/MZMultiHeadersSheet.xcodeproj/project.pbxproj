@@ -247,7 +247,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				3FA5C39E0A40CA28964A56F3 /* [CP] Embed Pods Frameworks */,
-				474867C7944FC0FF182BD086 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,8 +265,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6545E88D336EC171E2B77D7D /* [CP] Embed Pods Frameworks */,
-				533390B9B56E21767FE68558 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -363,7 +360,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MZMultiHeadersSheet_Example/Pods-MZMultiHeadersSheet_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MZMultiHeadersSheet_Example/Pods-MZMultiHeadersSheet_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MZMultiHeadersSheet/MZMultiHeadersSheet.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -372,52 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMultiHeadersSheet_Example/Pods-MZMultiHeadersSheet_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		474867C7944FC0FF182BD086 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMultiHeadersSheet_Example/Pods-MZMultiHeadersSheet_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		533390B9B56E21767FE68558 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMultiHeadersSheet_Tests/Pods-MZMultiHeadersSheet_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6545E88D336EC171E2B77D7D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MZMultiHeadersSheet_Tests/Pods-MZMultiHeadersSheet_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MZMultiHeadersSheet_Example/Pods-MZMultiHeadersSheet_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9812DEE53CC7E51F11381C9E /* [CP] Check Pods Manifest.lock */ = {

@@ -109,7 +109,7 @@
                     xOffset = 0;
                     yOffset += 1;
                 }
-                if (yOffset >= scale.height) {
+                if (yOffset >= scale.height && index+1 != [self.collectionView numberOfItemsInSection:0]) {
                     endFlag = 2;
                 }
             }

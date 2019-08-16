@@ -1,0 +1,6 @@
+framework module MZMultiHeadersSheet {
+  umbrella header "MZMultiHeadersSheet-umbrella.h"
+
+  export *
+  module * { export * }
+}
