@@ -4,12 +4,13 @@
 [![Version](https://img.shields.io/cocoapods/v/MZMultiHeadersSheet.svg?style=flat)](http://cocoapods.org/pods/MZMultiHeadersSheet)
 
 ## Abstract
-[Swift版本](https://github.com/MachelleZhang/MZTableLayout)<br>
+FreeLayout的[Swift版本](https://github.com/MachelleZhang/MZTableLayout)<br>
 自定义UICollectionView的Layout，实现类似Excel的功能。<br>
 1.MZMultiHeadersSheetLayout<br>
 仅第一行为多表头的布局。可实现普通的带冻结效果的滚动表格<br>
 2.MZFreeLayout<br>
 类似Excel表格的自由布局。可实现第一种布局的效果。<br>
+**注** 推荐直接使用FreeLayout，而且有对应的Swift版本。MultiHeadersSheetLayout是最初的构思，写完后想到了更为通用的FreeLayout，算是实现这个库的思路进程。<br>
 ![Multi_Headers.gif](/Pictures/multi_header.gif)
 
 ## Example
@@ -26,7 +27,7 @@ MZMultiHeadersSheet is available through [CocoaPods](http://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MZMultiHeadersSheet', '~> 0.2.2'
+pod 'MZMultiHeadersSheet', '~> 0.3.0'
 ```
 
 ## Usage<br>
@@ -155,6 +156,11 @@ freeLayout = self;
     return self.datas.count;
 }
 ```
+
+## Update History
+版本号|版本描述
+---|---
+0.3.0|FreeLayout增加margin和spacing属性，方便间隔的设置
 
 ## Author
 
