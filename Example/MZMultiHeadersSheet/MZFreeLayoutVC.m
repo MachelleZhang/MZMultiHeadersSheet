@@ -32,8 +32,10 @@ static NSString *cellIdentifier = @"MZCollectionViewCell";
 - (void)initForView {
     MZFreeSheetLayout *freeLayout = [[MZFreeSheetLayout alloc] init];
     freeLayout.delegate = self;
+    freeLayout.itemSpacing = 2;
+    freeLayout.itemMargin = 5;
     
-    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 100) collectionViewLayout:freeLayout];
+    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 88, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 100) collectionViewLayout:freeLayout];
     [self.collectionView registerNib:[UINib nibWithNibName:cellIdentifier bundle:nil] forCellWithReuseIdentifier:cellIdentifier];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     self.collectionView.bounces = NO;
@@ -95,7 +97,7 @@ static NSString *cellIdentifier = @"MZCollectionViewCell";
  *  需要冻结的行列，格式(int, int)，例：(1,0)，表示第1列被冻结，可参照Excel的冻结规则
  */
 - (CGSize)frozenUnitOfCollection:(UICollectionView *)collectionView {
-    return CGSizeMake(1, 0);
+    return CGSizeMake(1, 1);
 }
 
 #pragma mark - UICollectionViewDataSource

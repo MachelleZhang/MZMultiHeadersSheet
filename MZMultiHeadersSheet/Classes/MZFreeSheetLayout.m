@@ -42,7 +42,8 @@
     CGSize scale = [self scaleOfCollectionView:self.collectionView];
     CGSize baseSize = [self baseSizeOfCollectionView:self.collectionView];
     //根据规模和基本单位，可以确定content size的大小
-    self.contentSize = CGSizeMake(scale.width * baseSize.width, scale.height * baseSize.height);
+    self.contentSize = CGSizeMake(scale.width * baseSize.width + (scale.width - 1) * self.itemSpacing + 2 * self.itemMargin,
+                                  scale.height * baseSize.height + (scale.height - 1) * self.itemSpacing + 2 * self.itemMargin);
     //根据规模生成占位数组,例如 3 * 3 的规模
     //  [ [1, 1, 1],
     //    [1, 1, 1],
@@ -84,8 +85,8 @@
             } else {
                 isFind = YES;
                 //生成位置属性，保存
-                CGFloat atWidth = tempX_single * baseSize.width;
-                CGFloat atHeight = tempY_single * baseSize.height;
+                CGFloat atWidth = tempX_single * baseSize.width + tempX_single * self.itemSpacing + self.itemMargin;
+                CGFloat atHeight = tempY_single * baseSize.height + tempY_single * self.itemSpacing + self.itemMargin;
                 //冻结行列的坐标偏移
                 if (frozenUnit.width != 0 || frozenUnit.height != 0) {
                     if (tempX_single < frozenUnit.width && tempY_single < frozenUnit.height) {
@@ -100,7 +101,10 @@
                         attributes.zIndex = 1023;
                     }
                 }
-                attributes.frame = CGRectMake(atWidth, atHeight, curItemScale.width * baseSize.width, curItemScale.height * baseSize.height);
+                attributes.frame = CGRectMake(atWidth,
+                                              atHeight,
+                                              curItemScale.width * baseSize.width + (curItemScale.width - 1) * self.itemSpacing,
+                                              curItemScale.height * baseSize.height + (curItemScale.height - 1) * self.itemSpacing);
                 [self.itemAttributes addObject:attributes];
                 //移向下一个元素位置
                 xOffset = tempX_single + curItemScale.width;

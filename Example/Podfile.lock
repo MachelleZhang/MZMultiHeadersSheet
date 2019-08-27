@@ -1,5 +1,5 @@
 PODS:
-  - MZMultiHeadersSheet (0.2.1)
+  - MZMultiHeadersSheet (0.2.2)
 
 DEPENDENCIES:
   - MZMultiHeadersSheet (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MZMultiHeadersSheet: 1d569430e2d3a9842812970dfd8c98d71ac739a2
+  MZMultiHeadersSheet: a6b94823395b67e162f8879016afe7d9ae88d521
 
 PODFILE CHECKSUM: 13efbfb900a3ee69c78e288f6f30ba6143f36473
 

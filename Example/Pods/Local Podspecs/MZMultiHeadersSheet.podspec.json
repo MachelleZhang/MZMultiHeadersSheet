@@ -1,6 +1,6 @@
 {
   "name": "MZMultiHeadersSheet",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "summary": "自定义UICollectionView的布局，实现类似Excel表格的功能",
   "description": "自定义UICollectionView的布局，实现类似Excel表格的功能，具体使用方法请参看Demo。",
   "homepage": "https://github.com/MachelleZhang/MZMultiHeadersSheet",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MachelleZhang/MZMultiHeadersSheet.git",
-    "tag": "0.2.1"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"

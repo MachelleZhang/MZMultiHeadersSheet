@@ -31,7 +31,7 @@ static NSString *cellIdentifier = @"MZCollectionViewCell";
     MZMultiHeadersSheetLayout *multiHeadersLayout = [[MZMultiHeadersSheetLayout alloc] init];
     multiHeadersLayout.delegate = self;
     
-    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 100) collectionViewLayout:multiHeadersLayout];
+    self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 88, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height - 100) collectionViewLayout:multiHeadersLayout];
     [self.collectionView registerNib:[UINib nibWithNibName:cellIdentifier bundle:nil] forCellWithReuseIdentifier:cellIdentifier];
     self.collectionView.backgroundColor = [UIColor whiteColor];
     self.collectionView.bounces = NO;

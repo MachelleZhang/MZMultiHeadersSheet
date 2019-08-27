@@ -39,4 +39,10 @@
 
 @property(nonatomic, weak) id<MZFreeSheetLayoutDelegate> delegate;
 
+/** 整个表格的边距 */
+@property (nonatomic, assign) CGFloat itemMargin;
+
+/** item之间的间隔 */
+@property (nonatomic, assign) CGFloat itemSpacing;
+
 @end
