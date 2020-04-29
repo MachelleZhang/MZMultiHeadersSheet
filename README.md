@@ -3,6 +3,10 @@
 [![CI Status](http://img.shields.io/travis/machellezhang/MZMultiHeadersSheet.svg?style=flat)](https://travis-ci.org/machellezhang/MZMultiHeadersSheet)
 [![Version](https://img.shields.io/cocoapods/v/MZMultiHeadersSheet.svg?style=flat)](http://cocoapods.org/pods/MZMultiHeadersSheet)
 
+## 注意
+此库已经简化整理，不再维护，请使用新的库。
+[Objective-C版本请点此](https://github.com/MachelleZhang/MZFreeLayout)，[Swift版本请点此](https://github.com/MachelleZhang/MZTableLayout)。
+
 ## Abstract
 FreeLayout的[Swift版本](https://github.com/MachelleZhang/MZTableLayout)<br>
 自定义UICollectionView的Layout，实现类似Excel的功能。<br>
