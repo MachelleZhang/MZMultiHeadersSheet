@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## MZMultiHeadersSheet
 
-Copyright (c) 2018 machellezhang <zhangle@boco.com.cn>
+Copyright (c) 2018 machellezhang <407916482@qq.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
